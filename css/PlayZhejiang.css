@@ -1,0 +1,99 @@
+.banner {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.banner>img {
+	display: block;
+}
+
+.banner>h1 {
+	position: absolute;
+	bottom: -26px;
+	left: 820px;
+	width: 276px;
+	height: 52px;
+	margin: 0;
+	background-image: url(../img/wzzj.png);
+	background-size: 276px 52px;
+}
+
+.centerbox .scenerylist {
+	padding-top: 1%;
+	border-top: 1px solid #d7d7d7;
+	margin-bottom: 20px;
+}
+
+.centerbox .scenerylist>li {
+	height: 180px;
+	padding: 15px 0;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.centerbox .scenerylist>li>a {
+	display: block;
+	height: 100%;
+	position: relative;
+}
+
+.centerbox .scenerylist>li>a>img {
+	width: 22%;
+	height: 100%;
+	float: left;
+}
+
+.centerbox .scenerylist .text {
+	width: 60%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+
+.centerbox .scenerylist .text>h3 {
+	color: #2f2f2f;
+}
+
+.centerbox .scenerylist .text>p {
+	margin-bottom: 1%;
+	line-height: 22px;
+	height: 87px;
+	color: #707070;
+	font-size: 14px;
+}
+
+.centerbox .scenerylist .time {
+	position: absolute;
+	position: absolute;
+	color: #585858;
+	font-weight: bold;
+	top: 44%;
+	right: 3%;
+}
+
+.centerbox .fenye {
+	margin-bottom: 20px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+}
+
+.centerbox .fenye>li {
+	margin-right: 1%;
+}
+
+.centerbox .fenye>li>a {
+	font-size: 15px;
+	color: #202020;
+}
+
+.centerbox .fenye>li:first-child>a {
+	color: red;
+}
+
+.centerbox .fenye>li:last-child>a {
+	color: #32A071;
+	font-size: 18px;
+}
+.nav{
+	margin-bottom:0px !important;
+}

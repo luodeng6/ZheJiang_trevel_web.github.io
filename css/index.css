@@ -1,0 +1,518 @@
+.banner {
+	height: 780px;
+	background-color: #fff;
+	position: relative;
+}
+
+.banner .img-list {
+	height: 100%;
+}
+
+.banner .img-list>img {
+	width: 100%;
+	height: 100%;
+
+
+	/* 所有图片都在同一个地方 */
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	/* 设置所有图片透明 */
+	opacity: 0;
+	/* 图片样式过渡时间为1.5s */
+	transition: all 1.5s;
+}
+
+
+/* 第一个图片不透明！ */
+.banner .img-list>img:first-child {
+	z-index: 99;
+	opacity: 1;
+}
+
+
+/* 设置轮播图按钮的ul样式 */
+.banner .button {
+	overflow: hidden;
+	position: absolute;
+	z-index: 100;
+	bottom: 10px;
+	left: 45%;
+}
+
+
+/* 设置轮播图按钮的li样式 */
+.banner .button>li {
+	float: left;
+	width: 25px;
+	height: 10px;
+	cursor: pointer;
+	border: 1px solid #d2d2d2;
+	border-radius: 10px;
+	margin: 0 5px;
+	background-color: #fff;
+}
+
+
+
+.banner .button>li:first-child {
+	background: #0caee8;
+}
+
+.banner .container {
+	position: absolute;
+	height: 100px !important;
+	z-index: 100;
+	top: 9%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.banner .container>.logo {
+	float: left;
+}
+
+.banner .container>.yuyan {
+	float: right;
+	overflow: hidden;
+}
+
+.banner .container>.yuyan>span {
+	color: #fff;
+	display: block;
+	float: left;
+	height: 20px;
+}
+
+.banner .container>.yuyan>span:first-of-type>img {
+	margin-right: 10px;
+}
+
+.banner .container>.yuyan>span:nth-of-type(2) {
+	margin: 0 10px;
+}
+
+.banner .container>.yuyan>span:last-of-type {
+	line-height: 30px;
+}
+
+.centerbox .season {
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.centerbox .season>li {
+	width: 24.4%;
+	height: 100%;
+	float: left;
+}
+
+.centerbox .season>li>img {
+	width: 100%;
+}
+
+.centerbox .season>li>ul,
+.centerbox .season .button {
+	width: 85%;
+	margin: 0 auto;
+	color: #fff;
+}
+
+.centerbox .season>li>ul>li {
+	height: 20px;
+	margin-bottom: 6px;
+	overflow: hidden;
+}
+
+.centerbox .season>li>ul span {
+	display: block;
+	width: 6px;
+	height: 6px;
+	border-radius: 100%;
+	background-color: #fff;
+	float: left;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+.centerbox .season>li>ul a {
+	display: block;
+	width: 95%;
+	color: white;
+	font-size: 14px;
+	float: left;
+}
+
+.centerbox .season .button>a {
+	color: #fff;
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+
+.centerbox .category {
+	overflow: hidden;
+}
+
+.centerbox .category>li {
+	float: left;
+	margin-top: 18px;
+}
+
+.centerbox .category>li:nth-of-type(odd) {
+	width: 19.2%;
+	height: 160px;
+}
+
+.centerbox .category>li:nth-of-type(even) {
+	width: 1%;
+	height: 10px;
+}
+
+.centerbox .category>li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.centerbox .category>li>a>img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.centerbox .category>li>a>div {
+	position: absolute;
+	transition: all .5s;
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.centerbox .category>li>a>div>span {
+	color: #fff;
+	line-height: 160px;
+	font-weight: bold;
+}
+
+.centerbox .propose {
+	overflow: hidden;
+}
+
+.centerbox .propose>li {
+	float: left;
+	width: 24.4%;
+	height: 407px;
+	margin-right: 12px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.centerbox .propose>li:last-of-type {
+	margin: 0 !important;
+	margin-top: 20px !important;
+}
+
+.centerbox .propose>li>a {
+	display: block;
+	height: 100%;
+}
+
+.centerbox .propose>li>a>div {
+	width: 100%;
+}
+
+.centerbox .propose>li>a>div>img:first-of-type {
+	width: 100%;
+	height: 100%;
+}
+
+.centerbox .propose .bimg {
+	position: relative;
+	height: 205px;
+}
+
+.centerbox .propose>li>a>div>div {
+	position: absolute;
+	bottom: -23px;
+	right: 20px;
+}
+
+.centerbox .propose>li>a>div>div>span {
+	float: left;
+	color: #fff;
+	margin-right: 2px;
+}
+
+.centerbox .propose>li>a>div>div>img {
+	float: left;
+	border-radius: 100%;
+	width: 46px;
+	height: 46px;
+}
+
+.centerbox .propose .text {
+	width: calc(100% - 2px) !important;
+	padding-top: 35px;
+	border: 1px solid #b5b5b5;
+	border-top: none;
+	border-radius: 0 0 10px 10px;
+}
+
+.centerbox .propose .text>h3 {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #3d3d3d;
+	margin-bottom: 18px;
+}
+
+.centerbox .propose .text>p {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 14px;
+	color: #6b6b6b;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+.centerbox .propose .text>div {
+	position: static !important;
+	border-top: 1px solid #dcdcdc;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	color: #a7a7a7;
+}
+
+.centerbox .place {
+	overflow: hidden;
+}
+
+.centerbox .place .titletype {
+	margin-bottom: 20px;
+}
+
+.centerbox .place .left {
+	width: 32%;
+	height: 500px;
+	background-color: white;
+	border: 8px solid #32A071;
+	margin-left: 9%;
+	margin-top: 5%;
+	float: left;
+	cursor: pointer;
+}
+
+.centerbox .place .left>h3 {
+	padding-left: 20px;
+	width: calc(96% - 20px);
+	height: 35px;
+	margin: 0 auto;
+	background-color: #32A071;
+	margin-top: 2%;
+	line-height: 45px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.centerbox .place .left>img {
+	display: block;
+	width: 96%;
+	height: 283px;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.centerbox .place .left>p {
+	width: 96%;
+	margin: 0 auto;
+	margin-top: 3%;
+	color: #4a4a4a;
+	line-height: 22px;
+	font-size: 14px;
+}
+
+.centerbox .place .right {
+	width: 44%;
+	margin-right: 6%;
+	float: right;
+}
+
+.centerbox .place .map {
+	overflow: hidden;
+}
+
+.centerbox .place .fenlei {
+	overflow: hidden;
+	margin-top: 30px;
+}
+
+.centerbox .place .fenlei>li {
+	float: left;
+}
+
+.centerbox .place .fenlei>li:nth-child(odd) {
+	width: 24.4%;
+	height: 325px;
+	border-radius: 4px;
+	background-color: #fafafa;
+}
+
+.centerbox .place .fenlei>li:nth-child(even) {
+	width: 0.8%;
+	height: 5px;
+}
+
+.centerbox .place .fenlei>li:nth-child(odd)>a {
+	display: block;
+	height: 100%;
+}
+
+.centerbox .place .fenlei>li:nth-child(odd) img {
+	width: 100%;
+	height: 205px;
+}
+
+.centerbox .place .fenlei>li:nth-child(odd)>a>h4 {
+	width: 94%;
+	height: 20px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10px;
+	color: #2f2f2f;
+}
+
+.centerbox .place .fenlei>li:nth-child(odd)>a>p {
+	width: 94%;
+	height: 57px;
+	margin: 0 auto;
+	color: #707070;
+	line-height: 20px;
+	font-size: 14px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.centerbox .place .fenlei .gengduo {
+	margin-top: 360px !important;
+}
+
+.centerbox .shopping {
+	overflow: hidden;
+}
+
+.centerbox .shopping .titletype {
+	margin-bottom: 20px;
+}
+
+.centerbox .shopping .left {
+	width: 839.501px;
+	height: 471.785px;
+	background-image: url(../img/bg.jpg);
+	background-size: 839.501px 471.785px;
+	position: relative;
+	float: left;
+}
+
+.centerbox .shopping .left>div {
+	position: absolute;
+	top: 37%;
+	left: 25%;
+	background-color: rgba(187, 119, 0, 0.9);
+	width: 50%;
+	height: 114px;
+	text-align: center;
+	color: #fff;
+}
+
+.centerbox .shopping .left>div>h3 {
+	margin-top: 4%;
+	font-size: 20px;
+	border: 1px solid white;
+	width: 94%;
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.centerbox .shopping .left>div>p {
+	width: 94%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 15px;
+	margin: 0 auto;
+	line-height: 40px;
+	border: 1px solid white;
+	border-top: none;
+}
+
+.centerbox .shopping .right {
+	width: 670px;
+	float: right;
+	overflow: hidden;
+}
+
+.centerbox .shopping .right>li {
+	float: left;
+}
+
+.centerbox .shopping .right>li:nth-child(odd) {
+	width: 330px;
+	height: 230.922px;
+	margin-bottom: 10px;
+}
+
+.centerbox .shopping .right>li:nth-child(even) {
+	width: 10px;
+	height: 10px;
+}
+
+.centerbox .shopping .right>li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.centerbox .shopping .right>li>a>img {
+	display: block;
+	height: 180px;
+	width: 100%;
+}
+
+.centerbox .shopping .right .text {
+	border: 1px solid rgb(216, 216, 216);
+	border-top: none;
+	height: 50px;
+}
+
+.centerbox .shopping .right>li>a h3 {
+	margin: 0 auto;
+	width: 94%;
+	line-height: 50px;
+	color: rgb(73, 73, 73);
+	font-size: 16px;
+}
+
+.centerbox .shopping .right>li>a>.huo {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	width: 29px;
+	height: 49px;
+	background-image: url(../img/hot-fire.png);
+}
+
+.centerbox .shopping .gengduo {
+	margin-top: 530px;
+}

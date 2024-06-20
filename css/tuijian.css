@@ -1,0 +1,79 @@
+.centerbox {
+	margin-top: 40px;
+}
+
+.centerbox .title>h1 {
+	margin: 0;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.centerbox .sceneryclass:first-of-type {
+	margin-bottom: 30px !important;
+}
+
+.centerbox .sceneryclass:last-of-type>li:first-of-type>a {
+	background: rgb(0, 160, 100);
+	border: 1px solid rgb(0, 160, 100);
+}
+
+.centerbox .sceneryclass:last-of-type a:hover {
+	background: rgb(0, 160, 100);
+	border: 1px solid rgb(0, 160, 100);
+}
+
+.centerbox .scenerylist {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.centerbox .scenerylist>li {
+	float: left;
+	margin-top: 1%;
+}
+
+.centerbox .scenerylist>li:nth-child(odd) {
+	width: 32.8%;
+	height: 330px;
+}
+
+.centerbox .scenerylist>li:nth-child(even) {
+	width: 0.8%;
+	height: 5px;
+}
+
+.centerbox .scenerylist>li>a {
+	display: block;
+}
+
+.centerbox .scenerylist>li img {
+	display: block;
+	width: 100%;
+	height: 270px;
+}
+
+.centerbox .scenerylist>li h3 {
+	margin: 0;
+	padding-left: 10px;
+	width: calc(100% - 10px);
+	margin-top: 1%;
+	margin-bottom: 1%;
+	color: #525252;
+	line-height: 20px;
+}
+
+.centerbox .scenerylist>li p {
+	margin: 0;
+	padding-left: 10px;
+	width: calc(100% - 10px);
+	margin-bottom: 1%;
+	color: #7b7b7b;
+	line-height: 18px;
+	font-size: 14px;
+}
+
+.centerbox .scenerylist>li>a>div {
+	background-color: #fafafa;
+	border: 1px solid #d8d8d8;
+	border-top:1px #fafafa solid;
+}

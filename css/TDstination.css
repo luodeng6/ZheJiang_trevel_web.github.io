@@ -1,0 +1,273 @@
+.banner {
+	height: 550px !important;
+}
+
+.centerbox .changimg {
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	margin-bottom: 40px;
+}
+
+.centerbox .changimg>li {}
+
+.centerbox .miaoshu {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.centerbox .miaoshu>div {
+	float: left;
+}
+
+.centerbox .miaoshu>div:first-of-type {
+	width: 66%;
+	height: 460px;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.centerbox .miaoshu h1 {
+	color: #32A071;
+	font-weight: bold;
+	font-size: 24px;
+	float: left;
+	margin-left: 1%;
+	line-height: 30px;
+	margin-top: 0;
+	display: block;
+	width: 100%;
+}
+
+.centerbox .miaoshu p {
+	color: #424242;
+	margin-right: 1%;
+	font-size: 14px;
+	line-height: 1.75em;
+	text-indent: 2em;
+}
+
+.centerbox .biaoqian {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border-top: 1px solid rgba(255, 255, 255, 0);
+	margin-bottom: 20px;
+}
+
+.centerbox .biaoqian>div:first-child {
+	width: 178px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	background-image: url(../img/lygl-title-bg.png);
+	background-size: 178px 40px;
+}
+
+.centerbox .biaoqian>div:last-child {
+	background-image: url(../img/lygl-more-bg.png);
+	width: 65px;
+	height: 28px;
+}
+
+.centerbox .biaoqian>div:last-child>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 28px;
+	text-align: center;
+	color: white;
+	font-size: 13px;
+}
+
+.centerbox .luxian {
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.centerbox .luxian>li {
+	float: left;
+}
+
+.centerbox .luxian>li:nth-of-type(odd) {
+	position: relative;
+	width: 49.5%;
+	height: 410px;
+}
+
+.centerbox .luxian>li:nth-of-type(even) {
+	width: 0.8%;
+	height: 5px;
+}
+
+.centerbox .luxian>li>a,
+.centerbox .luxian>li>a>img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.centerbox .luxian .text {
+	position: absolute;
+	top: 39%;
+	left: 15%;
+	background-color: rgba(0, 0, 0, 0.7);
+	width: calc(70% - 20px);
+	height: 70px;
+	text-align: center;
+	padding: 10px 10px;
+}
+
+.centerbox .luxian .text>div {
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	border: 2px #fff solid;
+	font-size: 16px;
+	color: #f0ec49;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+.centerbox .imgshow {
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.centerbox .imgshow>li {
+	float: left;
+}
+
+.centerbox .imgshow>li:nth-of-type(odd) {
+	width: 32.8%;
+}
+
+.centerbox .imgshow>li:nth-of-type(even) {
+	width: 0.8%;
+	height: 5px;
+}
+
+.centerbox .imgshow>li>a,
+.centerbox .imgshow>li>a>img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.centerbox .wenlv {
+	overflow: hidden;
+}
+
+.centerbox .wenlv>li {
+	float: left;
+	margin-bottom: 1%;
+	position: relative;
+}
+
+.centerbox .wenlv>li:nth-of-type(odd) {
+	width: 24.4%;
+	height: 200px;
+}
+
+.centerbox .wenlv>li:nth-of-type(even) {
+	width: 0.8%;
+	height: 5px;
+}
+
+.centerbox .wenlv>li>a,
+.centerbox .wenlv>li>a>img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.centerbox .wenlv>li>a>p {
+	padding: 10px 10px;
+	width: calc(100% - 20px);
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	line-height: 25px;
+	font-size: 14px;
+}
+
+.centerbox .jingdian .text {
+	overflow: hidden;
+	height: 500px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.centerbox .jingdian .text .dingwei {
+	width: calc(50% - 40px);
+	height: 45px;
+	background-color: #32A071;
+	padding: 10px 20px;
+}
+
+.centerbox .jingdian .text .dingwei>h3 {
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+.centerbox .jingdian .text .dingwei>h3>span {
+	margin-left: 10px;
+	color: #f9ee56;
+	font-size: 14px;
+}
+
+.centerbox .jingdian .text .dingwei>p>a {
+	font-size: 14px;
+	color:#fff;
+}
+
+.centerbox .jingdian .text .image {
+	height: 100%;
+	width: 60%;
+}
+
+.centerbox .jingdian .text .image>img {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.centerbox .jingdian .text .miaoshu {
+	width: 38%;
+	padding-top: 8%;
+	text-indent: 2em;
+	color: #565656;
+	font-size: 14px;
+}
+.centerbox .jingdian>.text:nth-of-type(even)>.image{
+	float: left;
+}
+.centerbox .jingdian>.text:nth-of-type(even)>.miaoshu{
+	float: right;
+}
+.centerbox .jingdian>.text:nth-of-type(even)>.dingwei{
+	position: absolute;
+	top: 6%;
+	right: 0;
+}
+.centerbox .jingdian>.text:nth-of-type(odd)>.image{
+	float: right;
+}
+.centerbox .jingdian>.text:nth-of-type(odd)>.miaoshu{
+	float: left;
+}
+.centerbox .jingdian>.text:nth-of-type(odd)>.dingwei{
+	position: absolute;
+	top: 6%;
+	left: 0;
+}
+.centerbox .jingdian>.text:nth-of-type(odd)>.dingwei>h3,.centerbox .jingdian>.text:nth-of-type(odd)>.dingwei>p{
+	text-align:right;
+}
